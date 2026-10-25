@@ -1,0 +1,32 @@
+name: my_eye
+description: E-mboni - AI navigation assistant for blind users
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^13.0.0
+  http: ^1.2.0
+  shared_preferences: ^2.2.0
+  flutter_tts: ^4.0.2
+  speech_to_text: ^6.6.0
+  geolocator: ^11.0.0
+  url_launcher: ^6.2.0
+  vibration: ^1.8.4
+  camera: ^0.10.5
+  provider: ^6.1.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
